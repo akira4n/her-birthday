@@ -41,7 +41,7 @@ document.getElementById("nextBtn").addEventListener("click", () => {
       // Typed.js
       new Typed("#longText", {
         strings: ["halooo sayaaanggkuuu, hari iniii adalah hari yang sangaaat istimewa, karenaa kitaaa merayakan ulang tahunn orangg yang paling akuuu cintaiii🤍✨. SELAMATTT ULANGG TAHUNN SAYAANGGGKUUUUUU YG PENUH CINTAAA DAN KEBAHAGIAANNNN🤍🤍‼️‼️.. akuuu bersyukurr bangett punyaa sayaaangg, beruntungg bangett akuuu sayaaanggg. you make the ordinary feel magical, and you make my days brighter just by being yourself. kitaaa udahh ngelewatinn banyakk hal barenggg, baikk senangg dann sedihh, ups and down... tiapp momenn samaaa sayaangg, selaluu bikinn hidupp akuu berwarnaaaa🤍🤍. on your birthday, my wish for you is simple, semogaa semuaa harapann dann impiann sayaangg satu persatu mulai tercapaiii, panjangg umur, sehatt selaluuu sayaaanggg, mudah rezekinyaaaa, may ur heart always be full of joy, and may you never forget deeply you are loved (especially by me hihihihihi)🤍🫶.  akuu bakall selaluu adaa buatt dukung sayaangg, apapunn yang sayangg pengen lakuinn🫂. akuu janjii bakal terus dan selaluu adaa di sisi sayaaanggg, nemeninn di setiapp langkahh sayaanggg, ga pedulii mauu gimanapunn keadannyaaa. because no matter what happens, i love you the most, i choose you, today, tomorrow, and always🤍‼️‼️‼️ <br> sekali lagii Happy Birthday, my love. aku sayaaanggg banget sama sayaaangg🤍. semogaa hari inii di isi dengann penuhh cinta, kebahagiaannn, dan hal-hal indahh yang bakal selalu sayaangg kenang🤍🫂‼️"],
-        typeSpeed: 0,
+        typeSpeed: 50,
         showCursor: false,
         onComplete: () => {
           const nextToGalleryBtn = document.getElementById("nextToGalleryBtn");
