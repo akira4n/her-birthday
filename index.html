@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Birthday Sayang!</title>
+    <title>Happy Birthday Sayang 🎂</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body
+    id="page"
+    class="bg-black flex items-center justify-center min-h-screen transition-colors duration-2000 relative overflow-hidden"
+  >
+    <!-- lilin -->
+    <div
+      id="candle"
+      class="w-72 h-72 rounded-full bg-yellow-200 opacity-0 blur-3xl transition-opacity duration-2000 ease-in-out"
+    ></div>
+
+    <!-- page 1: main content -->
+    <div
+      id="content"
+      class="hidden absolute text-center space-y-6 opacity-0 transition-opacity duration-1000 ease-in-out"
+    >
+      <h1
+        id="title"
+        class="font-birthday text-5xl font-extrabold text-pink-600 drop-shadow-lg transition-opacity duration-1000 ease-in-out"
+      >
+        Happy Birthday Sayaangggkuuuuu 🎉
+      </h1>
+      <p
+        id="subtitle"
+        class="font-poppins text-lg text-gray-700 transition-opacity duration-1000 ease-in-out"
+      >
+        Semoga hari sayang penuh cinta dan kebahagiaan ✨🤍
+      </p>
+
+      <!-- tombol Next -->
+      <button
+        id="nextBtn"
+        class="opacity-0 translate-y-6 px-6 py-3 bg-pink-500 text-white rounded-full shadow-lg transition-all duration-1000 ease-in-out hover:bg-pink-600 hover:scale-105 transform pointer-events-none"
+      >
+        Klik Disini!
+      </button>
+    </div>
+
+    <!-- page 2: long text -->
+    <div
+      id="longTextPage"
+      class="hidden absolute text-center max-w-2xl opacity-0 transition-opacity duration-1000 ease-in-out max-h-screen overflow-y-auto px-4 py-10"
+    >
+      <p
+        id="longText"
+        class="font-poppins text-lg text-neutral-900 text-justify"
+      ></p>
+      <button
+        id="nextToGalleryBtn"
+        class="hidden mt-6 px-6 py-3 bg-pink-500 text-white rounded-full shadow-lg transition-all duration-1000 ease-in-out opacity-0 translate-y-6 hover:bg-pink-600 hover:scale-105 transform"
+      >
+        Next
+      </button>
+    </div>
+
+    <!-- page 3: gallery -->
+    <div
+      id="galleryPage"
+      class="hidden absolute inset-0 max-w-4xl mx-auto opacity-0 transition-opacity duration-1000 ease-in-out overflow-y-auto px-4 py-10 no-sc"
+    >
+      <h2 class="text-2xl font-bold text-pink-600 mb-6 text-center">
+        Galeri Kenangan Kita 💕
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <!-- contoh 12 foto -->
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto1.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto2.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto3.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto4.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto5.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto6.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto7.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto8.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto9.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto10.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto11.jpg" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+          <img src="assets/foto12.jpg" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
 </html>
